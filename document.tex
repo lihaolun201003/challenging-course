@@ -1,0 +1,256 @@
+\documentclass[12pt,a4paper]{ctexart}
+
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{longtable}
+\usepackage{amsmath}
+
+\geometry{
+    left=2.2cm,
+    right=2.2cm,
+    top=2.2cm,
+    bottom=2.2cm
+}
+
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.35}
+
+\definecolor{headblue}{RGB}{42,92,140}
+\definecolor{lightblue}{RGB}{235,243,250}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries STM32F411RE 外设接口分配表}\\[0.5em]
+    {\large 基于 NUCLEO-F411RE 的空气质量监测系统}
+\end{center}
+
+\vspace{1em}
+
+\section{HC-06 蓝牙模块}
+
+HC-06 通过 STM32F411RE 的 USART2 与主控通信。
+
+\begin{table}[htbp]
+\centering
+\rowcolors{2}{lightblue}{white}
+\begin{tabularx}{0.9\textwidth}{>{\bfseries}Y Y Y}
+\toprule
+\rowcolor{headblue}
+\color{white}HC-06 信号 &
+\color{white}STM32F411RE 引脚 &
+\color{white}STM32 功能 \\
+\midrule
+HC06\_TXD & PA3 & USART2\_RX \\
+HC06\_RXD & PA2 & USART2\_TX \\
+VCC & NUCLEO\_5V & 5 V 供电 \\
+GND & GND & 系统地 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+串口采用交叉连接：
+
+\[
+\text{HC-06 TXD}
+\rightarrow
+\text{STM32 PA3 / USART2\_RX}
+\]
+
+\[
+\text{HC-06 RXD}
+\leftarrow
+\text{STM32 PA2 / USART2\_TX}
+\]
+
+因此 CubeMX 中配置为：
+
+\begin{verbatim}
+PA2 = USART2_TX
+PA3 = USART2_RX
+\end{verbatim}
+
+\section{2.8 英寸 ILI9341 TFT LCD}
+
+2.8 英寸 TFT LCD 使用 SPI1 与 STM32F411RE 通信，
+显示控制器为 ILI9341，分辨率为 $240\times320$。
+
+\begin{table}[htbp]
+\centering
+\rowcolors{2}{lightblue}{white}
+\begin{tabularx}{0.95\textwidth}{>{\bfseries}Y Y Y}
+\toprule
+\rowcolor{headblue}
+\color{white}TFT 信号 &
+\color{white}STM32F411RE 引脚 &
+\color{white}功能 \\
+\midrule
+TFT\_SCK & PA5 & SPI1\_SCK \\
+TFT\_SDO & PA6 & SPI1\_MISO \\
+TFT\_SDI & PA7 & SPI1\_MOSI \\
+TFT\_CS & PB6 & GPIO Output \\
+TFT\_RS / DC & PC7 & GPIO Output \\
+TFT\_RESET & PB4 & GPIO Output \\
+TFT\_BL & PB3 & GPIO Output \\
+VCC & NUCLEO\_5V & 5 V 供电 \\
+GND & GND & 系统地 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+SPI1 的核心连接关系为：
+
+\begin{verbatim}
+PA5 -> TFT_SCK
+PA6 -> TFT_SDO / MISO
+PA7 -> TFT_SDI / MOSI
+
+PB6 -> TFT_CS
+PC7 -> TFT_RS / DC
+PB4 -> TFT_RESET
+PB3 -> TFT_BL
+\end{verbatim}
+
+本项目当前仅实现显示功能，因此触摸屏相关引脚暂不使用：
+
+\begin{verbatim}
+T_CLK
+T_CS
+T_DIN
+T_DO
+T_IRQ
+\end{verbatim}
+
+\section{PMS5003ST 多参数环境传感器}
+
+PMS5003ST 通过 USART1 与 STM32F411RE 通信，
+同时使用两个 GPIO 控制 SET 和 RESET 信号。
+
+\begin{table}[htbp]
+\centering
+\rowcolors{2}{lightblue}{white}
+\begin{tabularx}{0.95\textwidth}{>{\bfseries}Y Y Y}
+\toprule
+\rowcolor{headblue}
+\color{white}PMS5003ST 信号 &
+\color{white}STM32F411RE 引脚 &
+\color{white}STM32 功能 \\
+\midrule
+PMS\_TXD & PA10 & USART1\_RX \\
+PMS\_RXD & PA9 & USART1\_TX \\
+PMS\_SET & PB10 & GPIO Output \\
+PMS\_RESET & PB5 & GPIO Output \\
+VCC & NUCLEO\_5V & 5 V 供电 \\
+GND & GND & 系统地 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+串口同样采用交叉连接：
+
+\[
+\text{PMS TXD}
+\rightarrow
+\text{STM32 PA10 / USART1\_RX}
+\]
+
+\[
+\text{PMS RXD}
+\leftarrow
+\text{STM32 PA9 / USART1\_TX}
+\]
+
+CubeMX 中配置为：
+
+\begin{verbatim}
+PA9  = USART1_TX
+PA10 = USART1_RX
+
+PB10 = GPIO_Output  // PMS_SET
+PB5  = GPIO_Output  // PMS_RESET
+\end{verbatim}
+
+\section{系统引脚汇总}
+
+\begin{table}[htbp]
+\centering
+\rowcolors{2}{lightblue}{white}
+\begin{tabularx}{\textwidth}{>{\bfseries}Y L}
+\toprule
+\rowcolor{headblue}
+\color{white}模块 &
+\color{white}STM32F411RE 引脚分配 \\
+\midrule
+HC-06 &
+PA2 -- USART2\_TX；
+PA3 -- USART2\_RX \\
+
+PMS5003ST &
+PA9 -- USART1\_TX；
+PA10 -- USART1\_RX；
+PB10 -- PMS\_SET；
+PB5 -- PMS\_RESET \\
+
+ILI9341 SPI &
+PA5 -- SPI1\_SCK；
+PA6 -- SPI1\_MISO；
+PA7 -- SPI1\_MOSI \\
+
+ILI9341 控制 &
+PB6 -- TFT\_CS；
+PC7 -- TFT\_RS/DC；
+PB4 -- TFT\_RESET；
+PB3 -- TFT\_BL \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{STM32F411RE 核心接口一览}
+
+最终系统主要使用以下 13 个 MCU 引脚：
+
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+\textbf{引脚} & \textbf{功能} &
+\textbf{引脚} & \textbf{功能} \\
+\midrule
+PA2  & HC-06 TX &
+PA3  & HC-06 RX \\
+
+PA5  & TFT SCK &
+PA6  & TFT MISO \\
+
+PA7  & TFT MOSI &
+PA9  & PMS TX \\
+
+PA10 & PMS RX &
+PB3  & TFT BL \\
+
+PB4  & TFT RESET &
+PB5  & PMS RESET \\
+
+PB6  & TFT CS &
+PB10 & PMS SET \\
+
+PC7  & TFT DC &
+      &          \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vfill
+
+\begin{center}
+\small
+NUCLEO-F411RE / STM32F411RE \quad
+PMS5003ST + ILI9341 + HC-06
+\end{center}
+
+\end{document}
