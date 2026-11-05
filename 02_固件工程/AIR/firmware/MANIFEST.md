@@ -10,7 +10,8 @@
 
 | 固件文件（.bin / .elf） | 大小 (B) | .bin SHA-256（前 24 位） | 对应 PlatformIO 环境 | 通信方式 | 验证记录 |
 | --- | --- | --- | --- | --- | --- |
-| `air-blinker-uart6-20261010` ⭐ | 48,600 / 95,028 | `46f820447f180d37c6e09040` | `nucleo_f411re_uart6` | Blinker JSON，USART6 PA11/PA12 | `logs/blinker-uart6-verification-20261010.json` |
+| `air-hcho-alarm-uart6-20261015` ⭐ | 48,880 / 95,108 | `2189eea2de1b7337db9be481` | `nucleo_f411re_uart6` | Blinker JSON / USART6；PB10 蜂鸣器，HCHO > 0.030 mg/m³ 持续响 | `logs/hcho-alarm-verification-20261015.json` |
+| `air-blinker-uart6-20261010` | 48,600 / 95,028 | `46f820447f180d37c6e09040` | `nucleo_f411re_uart6` | Blinker JSON，USART6 PA11/PA12 | `logs/blinker-uart6-verification-20261010.json` |
 | `air-hc06-blinker-20261010` | 47,552 / 94,088 | `207608b54bb156bf0d75676a` | `nucleo_f411re` | Blinker JSON，USART2 PA2/PA3 | `logs/hc06-blinker-verification.json` |
 | `air-hc06-env-20261010` | 47,144 / 93,948 | `db4ac66be32e08aa9345157c` | `nucleo_f411re_env` | `$ENV,...#` 六字段，USART2 | `logs/hc06-env-verification.json` |
 | `air-hc06-20261010` | 47,768 / 93,964 | `5d701b1024d58472428b9a81` | `nucleo_f411re` | Blinker JSON，USART2（同环境早期修订） | `logs/hc06-verification.json` |

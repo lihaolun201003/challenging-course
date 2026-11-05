@@ -1,0 +1,38 @@
+{
+  "port": "COM3",
+  "baud": 115200,
+  "on_messages": 3,
+  "off_messages": 4,
+  "records": [
+    {
+      "elapsed_s": 0.156,
+      "line": "BUZZER OFF"
+    },
+    {
+      "elapsed_s": 1.656,
+      "line": "BUZZER ON"
+    },
+    {
+      "elapsed_s": 2.156,
+      "line": "BUZZER OFF"
+    },
+    {
+      "elapsed_s": 3.656,
+      "line": "BUZZER ON"
+    },
+    {
+      "elapsed_s": 4.156,
+      "line": "BUZZER OFF"
+    },
+    {
+      "elapsed_s": 5.656,
+      "line": "BUZZER ON"
+    },
+    {
+      "elapsed_s": 6.156,
+      "line": "BUZZER OFF"
+    }
+  ],
+  "runtime_confirmed": true,
+  "audible_sound_not_measured": true
+}

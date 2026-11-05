@@ -1,0 +1,160 @@
+{
+  "reset": {
+    "code": 0,
+    "log": "xPack Open On-Chip Debugger 0.12.0+dev-02228-ge5888bda3-dirty (2025-10-04-22:44)\nLicensed under GNU GPL v2\nFor bug reports, read\n\thttp://openocd.org/doc/doxygen/bugs.html\nWarn : DEPRECATED: auto-selecting transport \"swd (dapdirect)\". Use 'transport select swd' to suppress this message.\nInfo : STLINK V2J45M30 (API v2) VID:PID 0483:374B\nInfo : Target voltage: 3.247431\nInfo : Unable to match requested speed 2000 kHz, using 1800 kHz\nInfo : Unable to match requested speed 2000 kHz, using 1800 kHz\nInfo : clock speed 1800 kHz\nInfo : SWD DPIDR 0x2ba01477\nInfo : [stm32f4x.cpu] Cortex-M4 r0p1 processor detected\nInfo : [stm32f4x.cpu] target has 6 breakpoints, 4 watchpoints\nInfo : [stm32f4x.cpu] Examination succeed\nInfo : [stm32f4x.cpu] starting gdb server on 3333\nInfo : Listening on port 3333 for gdb connections\nInfo : Unable to match requested speed 2000 kHz, using 1800 kHz\nInfo : Unable to match requested speed 2000 kHz, using 1800 kHz\nshutdown command invoked\n"
+  },
+  "records": [
+    {
+      "elapsed_s": 0.781,
+      "line": "PMS frame=126 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.1 C RH=74.9 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 1.031,
+      "line": "BLINKER UART6: module RXD -> PA11/CN10-14, TXD -> PA12/CN10-12, 9600 8N1"
+    },
+    {
+      "elapsed_s": 1.031,
+      "line": "AIR PMS5003ST monitor boot"
+    },
+    {
+      "elapsed_s": 1.031,
+      "line": "PMS TXD -> D2/PA10, VCC=5V, GND=GND; active receive only"
+    },
+    {
+      "elapsed_s": 1.047,
+      "line": "LCD CS=PB6 DC=PB5 RESET=PA8 SCK=PA5 MOSI=PA7 LED=3V3"
+    },
+    {
+      "elapsed_s": 1.047,
+      "line": "BUZZER D6/PB10 active HIGH, VCC=5V: HCHO > 0.030 mg/m3"
+    },
+    {
+      "elapsed_s": 1.688,
+      "line": "PMS frame=1 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.0 C RH=74.8 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 1.703,
+      "line": "PMS RAW: 42 4D 00 24 00 00 00 00 00 00 00 00 00 00 00 00 00 72 00 18 00 00 00 00 00 00 00 00 00 00 00 DC 02 EC 00 00 91 00 03 98"
+    },
+    {
+      "elapsed_s": 2.672,
+      "line": "PMS frame=2 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.1 C RH=74.9 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 2.688,
+      "line": "PMS RAW: 42 4D 00 24 00 00 00 00 00 00 00 00 00 00 00 00 00 72 00 18 00 00 00 00 00 00 00 00 00 00 00 DD 02 ED 00 00 91 00 03 9A"
+    },
+    {
+      "elapsed_s": 3.578,
+      "line": "PMS frame=3 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.0 C RH=74.8 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 4.484,
+      "line": "PMS frame=4 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.1 C RH=74.8 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 5.547,
+      "line": "BOOT monitor: ready"
+    },
+    {
+      "elapsed_s": 5.547,
+      "line": "PMS frame=5 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.0 C RH=74.8 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 6.125,
+      "line": "PMS status: rx=200 valid=5 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=574"
+    },
+    {
+      "elapsed_s": 6.375,
+      "line": "PMS frame=6 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.1 C RH=74.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 7.281,
+      "line": "PMS frame=7 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.0 C RH=74.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 8.25,
+      "line": "PMS frame=8 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.1 C RH=74.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 9.156,
+      "line": "PMS frame=9 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.1 C RH=74.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 10.063,
+      "line": "PMS frame=10 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.1 C RH=74.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 11.047,
+      "line": "PMS frame=11 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.1 C RH=74.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    },
+    {
+      "elapsed_s": 11.125,
+      "line": "PMS status: rx=440 valid=11 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=71"
+    },
+    {
+      "elapsed_s": 11.953,
+      "line": "PMS frame=12 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=22.0 C RH=74.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+    }
+  ],
+  "decoded_raw_frames": [
+    {
+      "bytes": "42 4d 00 24 00 00 00 00 00 00 00 00 00 00 00 00 00 72 00 18 00 00 00 00 00 00 00 00 00 00 00 dc 02 ec 00 00 91 00 03 98",
+      "header_ok": true,
+      "checksum_ok": true,
+      "cf1_pm": [
+        0,
+        0,
+        0
+      ],
+      "atmospheric_pm": [
+        0,
+        0,
+        0
+      ],
+      "particles_per_0_1L": [
+        114,
+        24,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hcho_ug_m3": 0,
+      "temperature_tenths": 220,
+      "humidity_tenths": 748,
+      "error": 0
+    },
+    {
+      "bytes": "42 4d 00 24 00 00 00 00 00 00 00 00 00 00 00 00 00 72 00 18 00 00 00 00 00 00 00 00 00 00 00 dd 02 ed 00 00 91 00 03 9a",
+      "header_ok": true,
+      "checksum_ok": true,
+      "cf1_pm": [
+        0,
+        0,
+        0
+      ],
+      "atmospheric_pm": [
+        0,
+        0,
+        0
+      ],
+      "particles_per_0_1L": [
+        114,
+        24,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hcho_ug_m3": 0,
+      "temperature_tenths": 221,
+      "humidity_tenths": 749,
+      "error": 0
+    }
+  ],
+  "valid_reading_lines": 13,
+  "alarm_transitions": [],
+  "boot_config_confirmed": true,
+  "monitor_entered": true
+}

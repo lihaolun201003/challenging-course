@@ -1,0 +1,35 @@
+{
+  "reason": "AIR source/firmware before HCHO > 0.030 mg/m3 buzzer integration",
+  "records": [
+    {
+      "source": "src/main.cpp",
+      "backup": "src\\main.cpp",
+      "sha256": "2f7586d178111b230c176a1b8ff1bf36db81a14db25617f88a26af939c16a96b"
+    },
+    {
+      "source": "include/air_config.h",
+      "backup": "include\\air_config.h",
+      "sha256": "c92e35fa9b7956332f89bb750122e3d88a554eb90aa3e51af43f3bd0157b1cc7"
+    },
+    {
+      "source": "platformio.ini",
+      "backup": "platformio.ini",
+      "sha256": "10236b037496f951e4f91bcb4889350670d392f81e74ac028acf9b5cf004e9a3"
+    },
+    {
+      "source": ".pio/build/nucleo_f411re_uart6/firmware.bin",
+      "backup": "firmware\\firmware.bin",
+      "sha256": "46f820447f180d37c6e09040c288e3cfa7c6b1ff00bfdb3798784ae9f17a162d"
+    },
+    {
+      "source": ".pio/build/nucleo_f411re_uart6/firmware.elf",
+      "backup": "firmware\\firmware.elf",
+      "sha256": "7b030e162bd83bbd216353d057e7a7457150ab145aee6a4bae18008db3f7a67e"
+    },
+    {
+      "source": "../buzzer_test/backup/before-buzzer-flash.bin",
+      "backup": "firmware\\original-air-full-flash.bin",
+      "sha256": "375162d54c18ab800129da632fa38ba1f99ef4f042933f26d07f991f676f014f"
+    }
+  ]
+}

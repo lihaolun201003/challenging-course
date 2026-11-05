@@ -5,22 +5,22 @@
 #include <stdio.h>
 #include "air_config.h"
 #include "air_bluetooth.h"
+#include "air_alarm.h"
 #include "pms5003st.h"
 #include "boot_animation.h"
 #include "boot_display.h"
+#include "naiwa_ui.h"
 
 namespace {
 constexpr uint8_t TFT_CS = PB6;   // D10
 constexpr uint8_t TFT_DC = PB5;   // D4
 constexpr uint8_t TFT_RST = PA8;  // D7
+constexpr uint8_t BUZZER_PIN = PB10;  // D6, active HIGH; module VCC is 5V.
 constexpr uint32_t TFT_SPI_HZ = 8000000;
 constexpr uint32_t STALE_MS = AirTelemetry::STALE_MS;
-constexpr uint32_t WARMUP_MS = AirTelemetry::WARMUP_MS;
-constexpr uint16_t BACKGROUND = 0x0841;
-constexpr uint16_t CARD = 0x10C4;
-constexpr uint16_t MUTED = 0xAD55;
 
 BootDisplay lcd(&SPI, TFT_DC, TFT_CS, TFT_RST);
+NaiwaUi ui(lcd);
 // STM32duino 3.0 calls its concrete serial class Uart.
 // PA10 receives sensor TXD. PA9 is the required UART TX pin but is UNCONNECTED.
 // Never use USART1's automatic pin selection: PB6 is already LCD CS.
@@ -45,8 +45,7 @@ uint32_t lastUiMs = 0;
 #if AIR_ENABLE_SERIAL_LOG
 uint32_t lastLogMs = 0;
 #endif
-uint32_t displayedFrame = 0;
-bool displayedValues = false;
+bool buzzerSounding = false;
 
 AirTelemetry telemetry() {
   AirTelemetry sample;
@@ -57,14 +56,6 @@ AirTelemetry telemetry() {
   sample.frames = parser.frames;
   sample.badFrames = parser.checksumErrors + parser.lengthErrors;
   return sample;
-}
-
-void textAt(int16_t x, int16_t y, uint8_t size, uint16_t color,
-            const char *text) {
-  lcd.setCursor(x, y);
-  lcd.setTextSize(size);
-  lcd.setTextColor(color);
-  lcd.print(text);
 }
 
 void tenths(char *out, size_t capacity, int32_t value) {
@@ -80,93 +71,12 @@ void hchoText(char *out, size_t capacity, uint16_t value) {
            static_cast<unsigned>(value % 1000));
 }
 
-void valueAt(int16_t x, int16_t y, int16_t width, int16_t height,
-             uint8_t size, const char *text, uint16_t color = ILI9341_WHITE) {
-  lcd.fillRect(x, y, width, height, CARD);
-  textAt(x, y, size, color, text);
-}
-
-void drawLayout() {
-  lcd.fillScreen(BACKGROUND);
-  lcd.setTextWrap(false);
-  textAt(10, 8, 2, ILI9341_CYAN, "AIR MONITOR");
-  textAt(232, 12, 1, MUTED, "PMS5003ST");
-  lcd.fillRoundRect(8, 48, 304, 64, 4, CARD);
-  textAt(18, 54, 1, MUTED, "PM2.5  ug/m3");
-  textAt(184, 57, 1, MUTED, "PM1.0");
-  textAt(184, 85, 1, MUTED, "PM10");
-  lcd.fillRoundRect(8, 120, 148, 48, 4, CARD);
-  lcd.fillRoundRect(164, 120, 148, 48, 4, CARD);
-  textAt(18, 126, 1, MUTED, "TEMP (C)");
-  textAt(174, 126, 1, MUTED, "HUMIDITY (%)");
-  lcd.fillRoundRect(8, 176, 304, 32, 4, CARD);
-  textAt(18, 188, 1, MUTED, "HCHO");
-  textAt(248, 188, 1, MUTED, "mg/m3");
-}
-
-void drawValues(bool visible) {
-  char value[20];
-  if (visible) snprintf(value, sizeof(value), "%u", latest.pm25);
-  else snprintf(value, sizeof(value), "--");
-  valueAt(18, 72, 144, 32, 4, value, ILI9341_CYAN);
-
-  if (visible) snprintf(value, sizeof(value), "%u", latest.pm1);
-  valueAt(244, 54, 60, 16, 2, value);
-  if (visible) snprintf(value, sizeof(value), "%u", latest.pm10);
-  valueAt(244, 82, 60, 16, 2, value);
-
-  if (visible) tenths(value, sizeof(value), latest.temperatureTenths);
-  valueAt(18, 144, 132, 16, 2, value);
-  if (visible) tenths(value, sizeof(value), latest.humidityTenths);
-  valueAt(174, 144, 132, 16, 2, value);
-  if (visible) hchoText(value, sizeof(value), latest.hchoUgM3);
-  valueAt(100, 184, 140, 16, 2, value);
-}
-
-void drawStatus(uint32_t now) {
-  char status[52];
-  uint16_t color = ILI9341_GREEN;
-  const AirStatus state = telemetry().status(now);
-  lcd.fillRect(8, 32, 304, 8, BACKGROUND);
+void updateUi(uint32_t now) {
 #if AIR_ENABLE_BLUETOOTH
-  textAt(10, 32, 1, MUTED, bluetooth.streamEnabled()
-      ? "Bluetooth: streaming" : "Bluetooth: paused");
+  ui.update(telemetry(), now, true, bluetooth.streamEnabled(), buzzerSounding);
 #else
-  textAt(10, 32, 1, MUTED, "PA10 / D2   9600 8N1   PM: ATM");
+  ui.update(telemetry(), now, false, false, buzzerSounding);
 #endif
-  if (state == AirStatus::Waiting) {
-    snprintf(status, sizeof(status), "WAITING: check sensor power / TXD -> D2");
-    color = ILI9341_YELLOW;
-  } else if (state == AirStatus::NoData) {
-    snprintf(status, sizeof(status), "NO DATA: connection lost, readings cleared");
-    color = ILI9341_ORANGE;
-  } else if (state == AirStatus::SensorError) {
-    snprintf(status, sizeof(status), "SENSOR ERROR: 0x%02X", latest.error);
-    color = ILI9341_ORANGE;
-  } else if (state == AirStatus::Warmup) {
-    const uint32_t left = (WARMUP_MS - (now - sessionStartMs) + 999) / 1000;
-    snprintf(status, sizeof(status), "WARMUP: %lu s   receiving valid data",
-             static_cast<unsigned long>(left));
-    color = ILI9341_YELLOW;
-  } else {
-    snprintf(status, sizeof(status), "LIVE: sensor data / checksum OK");
-  }
-  lcd.fillRect(8, 216, 304, 8, BACKGROUND);
-  textAt(10, 216, 1, color, status);
-
-  const uint32_t bad = parser.checksumErrors + parser.lengthErrors;
-  if (hasFrame) {
-    snprintf(status, sizeof(status), "Frames:%lu  Age:%lus  Bad:%lu",
-             static_cast<unsigned long>(parser.frames),
-             static_cast<unsigned long>((now - lastFrameMs) / 1000),
-             static_cast<unsigned long>(bad));
-  } else {
-    snprintf(status, sizeof(status), "RX bytes:%lu  Bad:%lu  Waiting for 40 bytes",
-             static_cast<unsigned long>(receivedBytes),
-             static_cast<unsigned long>(bad));
-  }
-  lcd.fillRect(8, 230, 304, 8, BACKGROUND);
-  textAt(10, 230, 1, MUTED, status);
 }
 
 void logReading() {
@@ -213,16 +123,38 @@ void readSensor() {
   }
 }
 
+void updateHchoAlarm(uint32_t now) {
+  const AirTelemetry sample = telemetry();
+  const bool shouldSound = hchoAlarmShouldSound(sample, now);
+  if (shouldSound == buzzerSounding) return;
+  digitalWrite(BUZZER_PIN, shouldSound ? HIGH : LOW);
+  buzzerSounding = shouldSound;
+#if AIR_ENABLE_SERIAL_LOG
+  char line[112];
+  snprintf(line, sizeof(line),
+           "HCHO ALARM %s raw_ug_m3=%u threshold_ug_m3=%u state=%s",
+           shouldSound ? "ON" : "OFF", sample.reading.hchoUgM3,
+           HCHO_ALARM_THRESHOLD_UG_M3, airStatusName(sample.status(now)));
+  Serial.println(line);
+#endif
+}
+
 // The animation also calls this service between strips and while waiting.
 void serviceIo() {
   readSensor();
+  // Capture time after reception so a newly published frame is never in the future.
+  const uint32_t now = millis();
+  updateHchoAlarm(now);
 #if AIR_ENABLE_BLUETOOTH
-  bluetooth.poll(bluetoothSerial, telemetry(), millis());
+  bluetooth.poll(bluetoothSerial, telemetry(), now);
 #endif
 }
 }  // namespace
 
 void setup() {
+  digitalWrite(BUZZER_PIN, LOW);
+  pinMode(BUZZER_PIN, OUTPUT);
+  digitalWrite(BUZZER_PIN, LOW);
   // USART2 is either the Bluetooth link or the ST-Link diagnostic console.
   Serial.setRx(PA3);
   Serial.setTx(PA2);
@@ -242,6 +174,7 @@ void setup() {
   Serial.println(F("\r\nAIR PMS5003ST monitor boot"));
   Serial.println(F("PMS TXD -> D2/PA10, VCC=5V, GND=GND; active receive only"));
   Serial.println(F("LCD CS=PB6 DC=PB5 RESET=PA8 SCK=PA5 MOSI=PA7 LED=3V3"));
+  Serial.println(F("BUZZER D6/PB10 active HIGH, VCC=5V: HCHO > 0.030 mg/m3"));
 #endif
 
   SPI.setSCLK(PA5);
@@ -252,14 +185,13 @@ void setup() {
   lcd.invertDisplay(false);
   playBootAnimation(lcd, serviceIo);
   serviceIo();
-  drawLayout();
-  // Show the latest real reading immediately after the intro.
-  displayedValues = telemetry().valuesVisible(millis());
-  drawValues(displayedValues);
-  displayedFrame = parser.frames;
+  ui.begin(serviceIo);
+  // Re-read after static UI rendering so status uses a current timestamp.
+  serviceIo();
   lastUiMs = millis();
-  drawStatus(millis());
+  updateUi(lastUiMs);
 #if AIR_ENABLE_SERIAL_LOG
+  Serial.println(F("UI: NAIWA_COMPANION 320x240, localized refresh"));
   Serial.println(F("BOOT monitor: ready"));
 #endif
 }
@@ -269,13 +201,7 @@ void loop() {
   const uint32_t now = millis();
   if (static_cast<uint32_t>(now - lastUiMs) >= 500) {
     lastUiMs = now;
-    const bool visible = telemetry().valuesVisible(now);
-    if (parser.frames != displayedFrame || visible != displayedValues) {
-      drawValues(visible);
-      displayedFrame = parser.frames;
-      displayedValues = visible;
-    }
-    drawStatus(now);
+    updateUi(now);
   }
 #if AIR_ENABLE_SERIAL_LOG
   if (static_cast<uint32_t>(now - lastLogMs) >= 5000) {

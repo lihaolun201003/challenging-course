@@ -1,0 +1,8 @@
+{
+  "name": "BootJpeg",
+  "version": "1.0.0",
+  "description": "Private boot-animation JPEG decoder (ChaN TJpgDec R0.03)",
+  "build": {
+    "srcDir": "src"
+  }
+}

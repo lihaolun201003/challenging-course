@@ -1,0 +1,43 @@
+{
+  "started_at_local": "2026-10-16T00:03:16.108120+08:00",
+  "project": "C:\\Users\\lihao\\Desktop\\挑战性课程\\02_固件工程\\AIR",
+  "environment": "nucleo_f411re_uart6",
+  "firmware_bytes": 329312,
+  "firmware_sha256": "bef9a11d3dc791f4b05b4394965e82e0bf207f11f094a73bd3b0560aed887c59",
+  "flash_verified": true,
+  "readback_matches_bin": true,
+  "serial_port": "COM3",
+  "serial_baud": 115200,
+  "runtime_capture_s": 45,
+  "uploaded_at_local": "2026-10-16T00:03:29.032617+08:00",
+  "boot_count": 1,
+  "ui_marker_seen": true,
+  "monitor_ready_seen": true,
+  "reading_count": 48,
+  "last_reading": {
+    "frame": "48",
+    "pm1": "30",
+    "pm25": "48",
+    "pm10": "58",
+    "temp": "22.7",
+    "rh": "68.4",
+    "hcho": "0.000",
+    "fw": "145",
+    "err": "0"
+  },
+  "diagnostic_count": 8,
+  "last_diagnostic": {
+    "rx": 1880,
+    "valid": 47,
+    "checksum_bad": 0,
+    "length_bad": 0,
+    "partial_timeout": 0,
+    "age_ms": 25
+  },
+  "frame_ids_contiguous": true,
+  "sensor_error_nonzero_count": 0,
+  "diagnostic_errors_zero": true,
+  "alarm_events": [],
+  "runtime_checks_passed": true,
+  "completed_at_local": "2026-10-16T00:04:14.066753+08:00"
+}

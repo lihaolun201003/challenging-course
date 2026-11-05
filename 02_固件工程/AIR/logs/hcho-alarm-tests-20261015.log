@@ -1,0 +1,41 @@
+Verbosity level can be increased via `-v, -vv, or -vvv` option
+Collected 3 tests
+
+Processing test_hcho_alarm in nucleo_f411re_alarm_test environment
+--------------------------------------------------------------------------------
+Building & Uploading...
+Library Manager: Installing throwtheswitch/Unity @ ^2.6.1
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: Unity@2.6.1 has been installed!
+xPack Open On-Chip Debugger 0.12.0+dev-02228-ge5888bda3-dirty (2025-10-04-22:44)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_deassert_srst
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x08002934 msp: 0x20020000
+** Programming Started **
+** Programming Finished **
+** Verify Started **
+** Verified OK **
+** Resetting Target **
+shutdown command invoked
+Testing...
+If you don't see any output for the first 10 secs, please reset board (press reset button)
+
+test\test_hcho_alarm\test_main.cpp:126: test_strict_threshold_and_full_sensor_range	[PASSED]
+test\test_hcho_alarm\test_main.cpp:127: test_warmup_uses_the_same_strict_threshold	[PASSED]
+test\test_hcho_alarm\test_main.cpp:128: test_no_frame_never_alarms	[PASSED]
+test\test_hcho_alarm\test_main.cpp:129: test_sensor_error_silences_high_reading	[PASSED]
+test\test_hcho_alarm\test_main.cpp:130: test_stale_at_exactly_ten_seconds	[PASSED]
+test\test_hcho_alarm\test_main.cpp:131: test_millis_rollover_does_not_keep_stale_alarm	[PASSED]
+test\test_hcho_alarm\test_main.cpp:132: test_low_reading_stops_and_fresh_high_reading_restarts	[PASSED]
+test\test_hcho_alarm\test_main.cpp:133: test_real_parser_preserves_good_value_and_recovers_after_bad_frame	[PASSED]
+----- nucleo_f411re_alarm_test:test_hcho_alarm [PASSED] Took 14.26 seconds -----
+
+=================================== SUMMARY ===================================
+Environment               Test             Status    Duration
+------------------------  ---------------  --------  ------------
+nucleo_f411re_alarm_test  test_hcho_alarm  PASSED    00:00:14.258
+================== 8 test cases: 8 succeeded in 00:00:14.258 ==================

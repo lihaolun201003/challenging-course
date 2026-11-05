@@ -1,0 +1,106 @@
+{
+  "verified_at": "2026-10-15T15:28:01+08:00",
+  "project": "C:\\Users\\lihao\\Desktop\\挑战性课程\\02_固件工程\\AIR",
+  "environment": "nucleo_f411re_uart6",
+  "build": "SUCCESS",
+  "upload": "Verified OK",
+  "animation": {
+    "size": [
+      160,
+      214
+    ],
+    "jpeg_quality": 75,
+    "jpeg_payload_bytes": 267567,
+    "source_frames": 74,
+    "source_duration_ms": 7400,
+    "runtime": {
+      "duration_ms": 7401,
+      "frames": 74,
+      "decode_errors": 0,
+      "transfer_errors": 0,
+      "max_decode_ms": 80,
+      "max_transfer_ms": 40,
+      "max_late_ms": 14
+    }
+  },
+  "memory": {
+    "flash_used_bytes": 308212,
+    "flash_total_bytes": 524288,
+    "static_ram_used_bytes": 88736,
+    "ram_total_bytes": 131072
+  },
+  "changed_existing_files": [
+    "src/boot_animation.cpp"
+  ],
+  "added_animation_files": [
+    "assets/boot-run-converted-preview.gif",
+    "assets/boot-run-original.gif",
+    "include/boot_gif_data.h",
+    "lib/BootJpeg/README.md",
+    "lib/BootJpeg/library.json",
+    "lib/BootJpeg/src/tjpgd.c",
+    "lib/BootJpeg/src/tjpgd.h",
+    "lib/BootJpeg/src/tjpgdcnf.h",
+    "scripts/generate_boot_gif.py"
+  ],
+  "preserved_existing_files": {
+    "src/air_bluetooth.cpp": "57ed84c9f1a295d9961f4220152250ef6dd4117d9ec5b2dbe151057bd72df0be",
+    "src/boot_display.cpp": "ff3b8612a0794c3e0995dd89d4637e9c37b5e49db59e7cf7c5f0046235ebb005",
+    "src/main.cpp": "da0aa153e6ea0e6bf02adcb1142ca2a5a6bb21a41ca1846f9949383dab983681",
+    "include/air_alarm.h": "7f2cca963f42c3ab0ca050cf9896230e2649c8f9f71ebb132268a7995f37416b",
+    "include/air_bluetooth.h": "18056b38c9be8c2dad4afc91bbda912f63eb338963bf0ffd2f7d8ec9407dab6f",
+    "include/air_config.h": "c92e35fa9b7956332f89bb750122e3d88a554eb90aa3e51af43f3bd0157b1cc7",
+    "include/boot_animation.h": "a9cebba5ab48b56b4188e9f28e0da8e2ca07b87af40b49817307e254384b8c5e",
+    "include/boot_character_data.h": "aa4155960c55c05fad96480d2e1e36ba6a4525d201111c8412c4999020efb76e",
+    "include/boot_display.h": "6837cdd66547d992fbdd6e01f948f6c4f514d8fd5050b581815ea65ce6d6bc4b",
+    "include/pms5003st.h": "78325dcd56eea2e4ddcf1b418298df044fef0c0ef8bf1d97dba16e9264f98832",
+    "include/README": "dc6d9be88119a80edf773eb5a659f4470caf81ed5e95dbfd0cd3c7a9686ccd8c",
+    "include/wiring_private.h": "62b4639b6650b37278a1c952b710e24ced274ad215c3b3c4e0e3c6a28d879669",
+    "scripts/generate_boot_asset.py": "57bb3f73df546a6df2986dae4646a6fb1cbac59f3c5ddecae9c70e1e449eef1f",
+    "scripts/windows_paths.py": "57c33e4af15923b7e7f85acefd78a3386b33f99c84308d4ae408df5eac92ae57",
+    "lib/README": "9e753e4bef2bb4c7a3784561f50d0c42ceb7bd0c65f183e73209e86ec9892192",
+    "assets/boot-character-original.png": "3b6cbc1ff9a9f773bd0b009014383e3f96241cd0153a68aa34d642ae27125764",
+    "assets/boot-preview.gif": "4f0c82483f51840d699b1bd5de21dd4282ef18d0f3b701d611465dc2f4c31c63",
+    "assets/boot-preview.png": "9563589ec4bcefd012eabf9bec4c44c2fb9058831866c85a202c1a2f25dae33c",
+    "test/README": "95291bce496cd8b6f92ab6f9359119d77f02fc22eec7047cc38cc818a38c2b5d",
+    "test/test_air_bluetooth/test_main.cpp": "bc7a194b818b74203a83ea12f31bbf41c9a3e1e88c62ef19cddd34efcd990762",
+    "test/test_hcho_alarm/test_main.cpp": "82efe43280138a69b8060729c427ef07b250b4d07922959f27316afabcf072bf",
+    "test/test_pms_parser/test_main.cpp": "e286e8f88dc52117a8a4cdad3a237df4543638b1478321aabc072da806730c9e",
+    "platformio.ini": "bd23a5b6bb40f73c272c0efa2a0ca2347756f4ae796edfde9b3cc3a73e3a7fdc",
+    "README.md": "66d3f024b6e6f6a3cdece18d14a4edeb49bc3ba792490cd049aecda68361e93d"
+  },
+  "buzzer": {
+    "main_cpp_byte_identical": true,
+    "air_alarm_h_byte_identical": true,
+    "service_callback_preserved": true,
+    "acoustic_threshold_test_performed": false
+  },
+  "sensor": {
+    "frames_during_animation": 8,
+    "frames_after_animation": 18,
+    "status_lines": [
+      "PMS status: rx=360 valid=9 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=5",
+      "PMS status: rx=560 valid=14 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=576",
+      "PMS status: rx=785 valid=19 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=894",
+      "PMS status: rx=1000 valid=25 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=231"
+    ]
+  },
+  "display": {
+    "boot_spi_hz": 25000000,
+    "restored_spi_hz": 8000000,
+    "physical_display_visual_confirmation": "Not observed by the agent; serial diagnostics and converted frames verified"
+  },
+  "backup_directory": "C:\\Users\\lihao\\Desktop\\挑战性课程\\02_固件工程\\AIR\\backups\\before-gif-boot-20261015",
+  "prechange_device_flash_matches_buzzer_release": true,
+  "firmware": {
+    "air-boot-gif-hcho-uart6-20261015.bin": {
+      "bytes": 308668,
+      "sha256": "586558067cedfef52927e758b7497a46a5eff036e519f859a1cca10e29d5d289"
+    },
+    "air-boot-gif-hcho-uart6-20261015.elf": {
+      "bytes": 358572,
+      "sha256": "3fe9956e010008e6c7350700f2db45498be01d368746a577b925fd7194647171"
+    }
+  },
+  "decoder_source": "https://elm-chan.org/fsw/tjpgd/00index.html"
+}

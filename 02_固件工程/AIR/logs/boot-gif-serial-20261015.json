@@ -1,0 +1,166 @@
+[
+  {
+    "elapsed_s": 0.312,
+    "line": "PMS frame=16 PM1=19 PM2.5=29 PM10=31 ug/m3 TEMP=23.0 C RH=69.8 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 0.312,
+    "line": "BLINKER UART6: module RXD -> PA11/CN10-14, TXD -> PA12/CN10-12, 9600 8N1"
+  },
+  {
+    "elapsed_s": 0.312,
+    "line": "AIR PMS5003ST monitor boot"
+  },
+  {
+    "elapsed_s": 0.312,
+    "line": "PMS TXD -> D2/PA10, VCC=5V, GND=GND; active receive only"
+  },
+  {
+    "elapsed_s": 0.312,
+    "line": "LCD CS=PB6 DC=PB5 RESET=PA8 SCK=PA5 MOSI=PA7 LED=3V3"
+  },
+  {
+    "elapsed_s": 0.312,
+    "line": "BUZZER D6/PB10 active HIGH, VCC=5V: HCHO > 0.030 mg/m3"
+  },
+  {
+    "elapsed_s": 0.656,
+    "line": "BOOT GIF start frames=74 duration_ms=7400 uptime_ms=429"
+  },
+  {
+    "elapsed_s": 1.156,
+    "line": "PMS frame=1 PM1=19 PM2.5=29 PM10=30 ug/m3 TEMP=22.9 C RH=69.8 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 1.172,
+    "line": "PMS RAW: 42 4D 00 24 00 14 00 1D 00 1E 00 13 00 1D 00 1E 0E 91 04 42 00 BD 00 05 00 01 00 01 00 00 00 E5 02 BA 00 00 91 00 05 2B"
+  },
+  {
+    "elapsed_s": 2.062,
+    "line": "PMS frame=2 PM1=20 PM2.5=30 PM10=31 ug/m3 TEMP=22.9 C RH=69.9 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 2.078,
+    "line": "PMS RAW: 42 4D 00 24 00 15 00 1E 00 1F 00 14 00 1E 00 1F 0E 91 04 42 00 BD 00 05 00 01 00 01 00 00 00 E5 02 BB 00 00 91 00 05 32"
+  },
+  {
+    "elapsed_s": 2.969,
+    "line": "PMS frame=3 PM1=20 PM2.5=30 PM10=31 ug/m3 TEMP=22.9 C RH=69.9 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 3.953,
+    "line": "PMS frame=4 PM1=20 PM2.5=29 PM10=30 ug/m3 TEMP=22.9 C RH=69.9 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 4.859,
+    "line": "PMS frame=5 PM1=20 PM2.5=29 PM10=30 ug/m3 TEMP=22.9 C RH=69.8 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 5.765,
+    "line": "PMS frame=6 PM1=20 PM2.5=29 PM10=30 ug/m3 TEMP=23.0 C RH=69.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 6.75,
+    "line": "PMS frame=7 PM1=20 PM2.5=28 PM10=28 ug/m3 TEMP=22.9 C RH=69.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 7.656,
+    "line": "PMS frame=8 PM1=20 PM2.5=28 PM10=28 ug/m3 TEMP=22.9 C RH=69.5 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 8.062,
+    "line": "BOOT GIF done duration_ms=7401 frames=74 decode_errors=0 transfer_errors=0 max_decode_ms=80 max_transfer_ms=40 max_late_ms=14"
+  },
+  {
+    "elapsed_s": 8.812,
+    "line": "BOOT monitor: ready"
+  },
+  {
+    "elapsed_s": 8.828,
+    "line": "PMS frame=9 PM1=19 PM2.5=27 PM10=27 ug/m3 TEMP=22.9 C RH=69.4 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 8.828,
+    "line": "PMS status: rx=360 valid=9 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=5"
+  },
+  {
+    "elapsed_s": 9.547,
+    "line": "PMS frame=10 PM1=18 PM2.5=26 PM10=27 ug/m3 TEMP=23.0 C RH=69.3 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 10.453,
+    "line": "PMS frame=11 PM1=18 PM2.5=26 PM10=27 ug/m3 TEMP=22.9 C RH=69.2 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 11.359,
+    "line": "PMS frame=12 PM1=18 PM2.5=26 PM10=27 ug/m3 TEMP=22.9 C RH=69.2 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 12.344,
+    "line": "PMS frame=13 PM1=17 PM2.5=26 PM10=26 ug/m3 TEMP=22.9 C RH=69.1 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 13.25,
+    "line": "PMS frame=14 PM1=17 PM2.5=26 PM10=26 ug/m3 TEMP=22.9 C RH=69.0 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 13.828,
+    "line": "PMS status: rx=560 valid=14 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=576"
+  },
+  {
+    "elapsed_s": 14.156,
+    "line": "PMS frame=15 PM1=18 PM2.5=27 PM10=27 ug/m3 TEMP=22.9 C RH=68.9 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 15.14,
+    "line": "PMS frame=16 PM1=17 PM2.5=26 PM10=28 ug/m3 TEMP=22.9 C RH=68.8 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 16.047,
+    "line": "PMS frame=17 PM1=17 PM2.5=26 PM10=28 ug/m3 TEMP=22.9 C RH=68.9 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 16.953,
+    "line": "PMS frame=18 PM1=16 PM2.5=25 PM10=27 ug/m3 TEMP=22.9 C RH=68.8 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 17.937,
+    "line": "PMS frame=19 PM1=16 PM2.5=26 PM10=27 ug/m3 TEMP=22.9 C RH=68.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 18.828,
+    "line": "PMS status: rx=785 valid=19 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=894"
+  },
+  {
+    "elapsed_s": 18.844,
+    "line": "PMS frame=20 PM1=16 PM2.5=26 PM10=27 ug/m3 TEMP=22.9 C RH=68.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 19.75,
+    "line": "PMS frame=21 PM1=16 PM2.5=26 PM10=27 ug/m3 TEMP=23.0 C RH=68.8 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 20.734,
+    "line": "PMS frame=22 PM1=19 PM2.5=29 PM10=31 ug/m3 TEMP=23.0 C RH=68.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 21.703,
+    "line": "PMS frame=23 PM1=19 PM2.5=29 PM10=31 ug/m3 TEMP=22.9 C RH=68.7 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 22.687,
+    "line": "PMS frame=24 PM1=18 PM2.5=29 PM10=31 ug/m3 TEMP=22.9 C RH=68.6 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 23.672,
+    "line": "PMS frame=25 PM1=18 PM2.5=29 PM10=30 ug/m3 TEMP=22.9 C RH=68.6 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  },
+  {
+    "elapsed_s": 23.89,
+    "line": "PMS status: rx=1000 valid=25 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=231"
+  },
+  {
+    "elapsed_s": 24.64,
+    "line": "PMS frame=26 PM1=18 PM2.5=29 PM10=30 ug/m3 TEMP=22.9 C RH=68.6 % HCHO=0.000 mg/m3 FW=145 ERR=0"
+  }
+]

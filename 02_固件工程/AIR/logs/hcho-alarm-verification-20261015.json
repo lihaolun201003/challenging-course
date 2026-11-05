@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-15",
+  "environment": "nucleo_f411re_uart6",
+  "threshold_mg_m3": "0.030",
+  "threshold_raw_ug_m3": 30,
+  "comparison": "strictly greater than",
+  "buzzer": {
+    "pin": "PB10 / D6",
+    "module_vcc": "5V (user confirmed)",
+    "gpio_logic": "3.3V active HIGH",
+    "mode": "continuous while above threshold",
+    "off_when": [
+      "HCHO <= 30 ug/m3",
+      "no frame",
+      "last valid frame age >= 10000 ms",
+      "sensor error"
+    ]
+  },
+  "policy_tests": {
+    "environment": "nucleo_f411re_alarm_test",
+    "passed": 8,
+    "failed": 0,
+    "test_firmware_kept_buzzer_low": true
+  },
+  "release_upload_verified": true,
+  "runtime": {
+    "boot_config_confirmed": true,
+    "monitor_entered": true,
+    "valid_sensor_lines": 13,
+    "raw_frames_checksum_ok": true,
+    "ambient_hcho_ug_m3": [
+      0,
+      0
+    ],
+    "user_confirmed_pm_display_recovered": true,
+    "integrated_above_threshold_acoustic_test_performed": false
+  },
+  "firmware_files": {
+    "air-hcho-alarm-uart6-20261015.bin": {
+      "bytes": 48880,
+      "sha256": "2189eea2de1b7337db9be48165f34e4e50d03e26d1375c13db5587a2c7bf7468"
+    },
+    "air-hcho-alarm-uart6-20261015.elf": {
+      "bytes": 95108,
+      "sha256": "f3f05fd735830bfcc9b5b033ff2ba1fbc63fdf5c0a2cde38c479cbdb15d109dc"
+    }
+  },
+  "rollback_backup": "backups/before-hcho-alarm-20261015/firmware/original-air-full-flash.bin"
+}

@@ -1,0 +1,746 @@
+{
+  "analysis_kind": "file_only_observational_summary",
+  "input_folder": "C:\\Users\\YANGHAO\\Desktop\\AIR_10min_tools(1)\\AIR_10min_tools\\data\\光电楼_20261021_151032",
+  "analysis_created_local": "2026-10-21T15:21:09+08:00",
+  "sample_count": 642,
+  "measurement_schema": {
+    "present": true,
+    "columns": [
+      "timestamp_local",
+      "elapsed_s",
+      "frame",
+      "pm1_ug_m3",
+      "pm25_ug_m3",
+      "pm10_ug_m3",
+      "hcho_mg_m3",
+      "temperature_c",
+      "humidity_percent",
+      "firmware_version",
+      "sensor_error"
+    ],
+    "missing_columns": [],
+    "extra_columns": []
+  },
+  "capture_window": {
+    "duration_s": 600.0,
+    "duration_source": "metadata duration_s",
+    "test_start_local": "2026-10-21T15:11:03.303+08:00",
+    "test_end_local": "2026-10-21T15:21:03.303+08:00"
+  },
+  "metadata_status": "read",
+  "capture_metadata": {
+    "created_at_local": "2026-10-21T15:10:33.268+08:00",
+    "duration_s": 600.0,
+    "settling_s": 30.0,
+    "serial_port": "COM10",
+    "baudrate": 115200,
+    "serial_format": "8N1",
+    "phase": "complete",
+    "sample_count": 642,
+    "diagnostic_rows": 127,
+    "malformed_pms_lines": 0,
+    "capture_mode": "passive_USB_debug_log",
+    "scene": "光电楼",
+    "device_write_operations": false,
+    "device_reset_requested": false,
+    "flash_operation_performed": false,
+    "timestamp_basis": "PC receive time, not sensor sampling time",
+    "time_window": "0 <= elapsed_s < 600.0",
+    "hcho_polarization_history": "not verified by this script",
+    "settling_note": "Logging preparation only, not HCHO polarization or calibration",
+    "first_sensor_line_at_local": "2026-10-21T15:10:33.303+08:00",
+    "test_start_local": "2026-10-21T15:11:03.303+08:00",
+    "test_end_local": "2026-10-21T15:21:03.303+08:00",
+    "boot_messages_observed": 0,
+    "completed_at_local": "2026-10-21T15:21:09.404+08:00"
+  },
+  "integrity_metadata": {
+    "source_code_unchanged": null,
+    "flash_verified": null
+  },
+  "field_units": {
+    "timestamp_local": "带原始时区/本地格式的主机接收时间",
+    "elapsed_s": "s",
+    "frame": "帧编号",
+    "pm1_ug_m3": "µg/m³",
+    "pm25_ug_m3": "µg/m³",
+    "pm10_ug_m3": "µg/m³",
+    "hcho_mg_m3": "mg/m³",
+    "temperature_c": "°C",
+    "humidity_percent": "%",
+    "firmware_version": "传感器版本原值",
+    "sensor_error": "错误码",
+    "phase": "startup/test/post_test",
+    "rx_bytes": "bytes",
+    "valid_frames": "frames",
+    "checksum_errors": "count",
+    "length_errors": "count",
+    "partial_timeouts": "count",
+    "age_ms": "ms"
+  },
+  "sample_timing": {
+    "first_timestamp_local": "2026-10-21T15:11:03.697+08:00",
+    "last_timestamp_local": "2026-10-21T15:21:02.942+08:00",
+    "first_elapsed_s": 0.39403970004059374,
+    "last_elapsed_s": 599.6391312999185,
+    "first_csv_line": 2,
+    "last_csv_line": 643,
+    "timestamp_span_s": 599.245,
+    "elapsed_span_s": 599.2450915998779,
+    "sample_coverage_s": 599.2450915998779,
+    "sample_coverage_clock": "elapsed_s",
+    "invalid_elapsed_rows": 0,
+    "invalid_timestamp_rows": 0
+  },
+  "measurement_statistics": {
+    "pm1_ug_m3": {
+      "count": 642,
+      "min": 0.0,
+      "max": 19.0,
+      "mean": 0.7165109034267912,
+      "stdev": 3.039625198697181,
+      "stdev_definition": "样本标准差，ddof=1；少于2个数值时为空",
+      "label_cn": "PM1.0",
+      "unit": "µg/m³",
+      "missing_count": 0,
+      "invalid_or_nonfinite_count": 0,
+      "zero_count": 554
+    },
+    "pm25_ug_m3": {
+      "count": 642,
+      "min": 0.0,
+      "max": 29.0,
+      "mean": 1.158878504672897,
+      "stdev": 4.6378680064359585,
+      "stdev_definition": "样本标准差，ddof=1；少于2个数值时为空",
+      "label_cn": "PM2.5",
+      "unit": "µg/m³",
+      "missing_count": 0,
+      "invalid_or_nonfinite_count": 0,
+      "zero_count": 492
+    },
+    "pm10_ug_m3": {
+      "count": 642,
+      "min": 0.0,
+      "max": 32.0,
+      "mean": 1.250778816199377,
+      "stdev": 5.0718126270453165,
+      "stdev_definition": "样本标准差，ddof=1；少于2个数值时为空",
+      "label_cn": "PM10",
+      "unit": "µg/m³",
+      "missing_count": 0,
+      "invalid_or_nonfinite_count": 0,
+      "zero_count": 486
+    },
+    "hcho_mg_m3": {
+      "count": 642,
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "stdev": 0.0,
+      "stdev_definition": "样本标准差，ddof=1；少于2个数值时为空",
+      "label_cn": "甲醛 HCHO",
+      "unit": "mg/m³",
+      "missing_count": 0,
+      "invalid_or_nonfinite_count": 0,
+      "zero_count": 642
+    },
+    "temperature_c": {
+      "count": 642,
+      "min": 19.8,
+      "max": 20.8,
+      "mean": 20.36931464174455,
+      "stdev": 0.28086532890944876,
+      "stdev_definition": "样本标准差，ddof=1；少于2个数值时为空",
+      "label_cn": "温度",
+      "unit": "°C",
+      "missing_count": 0,
+      "invalid_or_nonfinite_count": 0,
+      "zero_count": 0
+    },
+    "humidity_percent": {
+      "count": 642,
+      "min": 56.6,
+      "max": 62.1,
+      "mean": 60.17133956386293,
+      "stdev": 0.9459105246850518,
+      "stdev_definition": "样本标准差，ddof=1；少于2个数值时为空",
+      "label_cn": "相对湿度",
+      "unit": "%",
+      "missing_count": 0,
+      "invalid_or_nonfinite_count": 0,
+      "zero_count": 0
+    }
+  },
+  "host_receive_intervals": {
+    "unit": "s",
+    "count": 641,
+    "min_s": 0.9010505999904126,
+    "median_s": 0.9082792999688536,
+    "max_s": 0.9850743000861257,
+    "p95_s": 0.9791420002002269,
+    "p95_definition": "nearest-rank：排序后第ceil(0.95×N)项；不对原始读数插值",
+    "zero_interval_count": 0,
+    "negative_interval_count": 0,
+    "clock_pair_counts": {
+      "elapsed_s": 641
+    },
+    "unavailable_adjacent_pairs": [],
+    "gap_alert_threshold_s": 10.0,
+    "gap_alert_comparison": ">=",
+    "inter_sample_gap_events": [],
+    "window_edge_gaps": {
+      "declared_duration_s": 600.0,
+      "leading_gap_s": 0.39403970004059374,
+      "trailing_gap_s": 0.36086870008148253,
+      "whole_window_without_samples_s": null,
+      "max_observable_gap_including_edges_s": 0.9850743000861257,
+      "out_of_window_elapsed_csv_lines": [],
+      "fully_evaluable": true
+    },
+    "all_gap_events_including_edges": []
+  },
+  "frame_ids": {
+    "valid_id_count": 642,
+    "invalid_or_missing_id_count": 0,
+    "first": 403,
+    "last": 1044,
+    "min": 403,
+    "max": 1044,
+    "distinct_id_count": 642,
+    "reused_id_occurrences_beyond_first": 0,
+    "adjacent_duplicate_count": 0,
+    "jump_event_count": 0,
+    "unobserved_ids_in_increasing_jumps": 0,
+    "rollback_event_count": 0,
+    "duplicates": [],
+    "jumps": [],
+    "rollbacks": [],
+    "interpretation": "跳号仅指编号未出现在相邻CSV记录中，不直接等于传感器丢包；回退原因未据此判定。"
+  },
+  "sensor_error": {
+    "nonzero_count": 0,
+    "nonzero_events": [],
+    "invalid_or_missing_count": 0,
+    "parsed_code_counts": {
+      "0": 642
+    }
+  },
+  "firmware_version_counts": {
+    "145": 642
+  },
+  "diagnostics": {
+    "schema": {
+      "present": true,
+      "columns": [
+        "timestamp_local",
+        "elapsed_s",
+        "phase",
+        "rx_bytes",
+        "valid_frames",
+        "checksum_errors",
+        "length_errors",
+        "partial_timeouts",
+        "age_ms"
+      ],
+      "missing_columns": [],
+      "extra_columns": []
+    },
+    "record_count": 127,
+    "phase_counts": {
+      "startup": 6,
+      "test": 120,
+      "post_test": 1
+    },
+    "all_records": {
+      "record_count": 127,
+      "first_csv_line": 2,
+      "last_csv_line": 128,
+      "raw_first_record": {
+        "timestamp_local": "2026-10-21T15:10:37.600+08:00",
+        "elapsed_s": "-25.703009400051087",
+        "phase": "startup",
+        "rx_bytes": "15000",
+        "valid_frames": "375",
+        "checksum_errors": "0",
+        "length_errors": "0",
+        "partial_timeouts": "0",
+        "age_ms": "596"
+      },
+      "raw_last_record": {
+        "timestamp_local": "2026-10-21T15:21:07.605+08:00",
+        "elapsed_s": "604.3029100000858",
+        "phase": "post_test",
+        "rx_bytes": "41941",
+        "valid_frames": "1048",
+        "checksum_errors": "0",
+        "length_errors": "0",
+        "partial_timeouts": "0",
+        "age_ms": "890"
+      },
+      "coverage": {
+        "first_timestamp_local": "2026-10-21T15:10:37.600+08:00",
+        "last_timestamp_local": "2026-10-21T15:21:07.605+08:00",
+        "first_elapsed_s": -25.703009400051087,
+        "last_elapsed_s": 604.3029100000858,
+        "first_csv_line": 2,
+        "last_csv_line": 128,
+        "timestamp_span_s": 630.005,
+        "elapsed_span_s": 630.0059194001369,
+        "sample_coverage_s": 630.0059194001369,
+        "sample_coverage_clock": "elapsed_s",
+        "invalid_elapsed_rows": 0,
+        "invalid_timestamp_rows": 0
+      },
+      "counters": {
+        "rx_bytes": {
+          "label_cn": "接收字节数",
+          "first": 15000,
+          "last": 41941,
+          "delta_last_minus_first": 26941,
+          "decreasing_transition_count": 0,
+          "invalid_or_missing_value_count": 0
+        },
+        "valid_frames": {
+          "label_cn": "有效帧数",
+          "first": 375,
+          "last": 1048,
+          "delta_last_minus_first": 673,
+          "decreasing_transition_count": 0,
+          "invalid_or_missing_value_count": 0
+        },
+        "checksum_errors": {
+          "label_cn": "校验错误数",
+          "first": 0,
+          "last": 0,
+          "delta_last_minus_first": 0,
+          "decreasing_transition_count": 0,
+          "invalid_or_missing_value_count": 0
+        },
+        "length_errors": {
+          "label_cn": "长度错误数",
+          "first": 0,
+          "last": 0,
+          "delta_last_minus_first": 0,
+          "decreasing_transition_count": 0,
+          "invalid_or_missing_value_count": 0
+        },
+        "partial_timeouts": {
+          "label_cn": "半帧超时数",
+          "first": 0,
+          "last": 0,
+          "delta_last_minus_first": 0,
+          "decreasing_transition_count": 0,
+          "invalid_or_missing_value_count": 0
+        }
+      },
+      "age_ms": {
+        "first": 596.0,
+        "last": 890.0,
+        "min": 4.0,
+        "max": 978.0,
+        "interpretation": "末帧年龄是瞬时量，不是累计错误计数。"
+      }
+    },
+    "by_phase": {
+      "startup": {
+        "record_count": 6,
+        "first_csv_line": 2,
+        "last_csv_line": 7,
+        "raw_first_record": {
+          "timestamp_local": "2026-10-21T15:10:37.600+08:00",
+          "elapsed_s": "-25.703009400051087",
+          "phase": "startup",
+          "rx_bytes": "15000",
+          "valid_frames": "375",
+          "checksum_errors": "0",
+          "length_errors": "0",
+          "partial_timeouts": "0",
+          "age_ms": "596"
+        },
+        "raw_last_record": {
+          "timestamp_local": "2026-10-21T15:11:02.600+08:00",
+          "elapsed_s": "-0.7028111999388784",
+          "phase": "startup",
+          "rx_bytes": "16040",
+          "valid_frames": "401",
+          "checksum_errors": "0",
+          "length_errors": "0",
+          "partial_timeouts": "0",
+          "age_ms": "790"
+        },
+        "coverage": {
+          "first_timestamp_local": "2026-10-21T15:10:37.600+08:00",
+          "last_timestamp_local": "2026-10-21T15:11:02.600+08:00",
+          "first_elapsed_s": -25.703009400051087,
+          "last_elapsed_s": -0.7028111999388784,
+          "first_csv_line": 2,
+          "last_csv_line": 7,
+          "timestamp_span_s": 25.0,
+          "elapsed_span_s": 25.00019820011221,
+          "sample_coverage_s": 25.00019820011221,
+          "sample_coverage_clock": "elapsed_s",
+          "invalid_elapsed_rows": 0,
+          "invalid_timestamp_rows": 0
+        },
+        "counters": {
+          "rx_bytes": {
+            "label_cn": "接收字节数",
+            "first": 15000,
+            "last": 16040,
+            "delta_last_minus_first": 1040,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "valid_frames": {
+            "label_cn": "有效帧数",
+            "first": 375,
+            "last": 401,
+            "delta_last_minus_first": 26,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "checksum_errors": {
+            "label_cn": "校验错误数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "length_errors": {
+            "label_cn": "长度错误数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "partial_timeouts": {
+            "label_cn": "半帧超时数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          }
+        },
+        "age_ms": {
+          "first": 596.0,
+          "last": 790.0,
+          "min": 8.0,
+          "max": 790.0,
+          "interpretation": "末帧年龄是瞬时量，不是累计错误计数。"
+        }
+      },
+      "test": {
+        "record_count": 120,
+        "first_csv_line": 8,
+        "last_csv_line": 127,
+        "raw_first_record": {
+          "timestamp_local": "2026-10-21T15:11:07.600+08:00",
+          "elapsed_s": "4.297246099915355",
+          "phase": "test",
+          "rx_bytes": "16280",
+          "valid_frames": "407",
+          "checksum_errors": "0",
+          "length_errors": "0",
+          "partial_timeouts": "0",
+          "age_ms": "201"
+        },
+        "raw_last_record": {
+          "timestamp_local": "2026-10-21T15:21:02.606+08:00",
+          "elapsed_s": "599.3030043998733",
+          "phase": "test",
+          "rx_bytes": "41720",
+          "valid_frames": "1043",
+          "checksum_errors": "0",
+          "length_errors": "0",
+          "partial_timeouts": "0",
+          "age_ms": "573"
+        },
+        "coverage": {
+          "first_timestamp_local": "2026-10-21T15:11:07.600+08:00",
+          "last_timestamp_local": "2026-10-21T15:21:02.606+08:00",
+          "first_elapsed_s": 4.297246099915355,
+          "last_elapsed_s": 599.3030043998733,
+          "first_csv_line": 8,
+          "last_csv_line": 127,
+          "timestamp_span_s": 595.006,
+          "elapsed_span_s": 595.005758299958,
+          "sample_coverage_s": 595.005758299958,
+          "sample_coverage_clock": "elapsed_s",
+          "invalid_elapsed_rows": 0,
+          "invalid_timestamp_rows": 0
+        },
+        "counters": {
+          "rx_bytes": {
+            "label_cn": "接收字节数",
+            "first": 16280,
+            "last": 41720,
+            "delta_last_minus_first": 25440,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "valid_frames": {
+            "label_cn": "有效帧数",
+            "first": 407,
+            "last": 1043,
+            "delta_last_minus_first": 636,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "checksum_errors": {
+            "label_cn": "校验错误数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "length_errors": {
+            "label_cn": "长度错误数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "partial_timeouts": {
+            "label_cn": "半帧超时数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          }
+        },
+        "age_ms": {
+          "first": 201.0,
+          "last": 573.0,
+          "min": 4.0,
+          "max": 978.0,
+          "interpretation": "末帧年龄是瞬时量，不是累计错误计数。"
+        }
+      },
+      "post_test": {
+        "record_count": 1,
+        "first_csv_line": 128,
+        "last_csv_line": 128,
+        "raw_first_record": {
+          "timestamp_local": "2026-10-21T15:21:07.605+08:00",
+          "elapsed_s": "604.3029100000858",
+          "phase": "post_test",
+          "rx_bytes": "41941",
+          "valid_frames": "1048",
+          "checksum_errors": "0",
+          "length_errors": "0",
+          "partial_timeouts": "0",
+          "age_ms": "890"
+        },
+        "raw_last_record": {
+          "timestamp_local": "2026-10-21T15:21:07.605+08:00",
+          "elapsed_s": "604.3029100000858",
+          "phase": "post_test",
+          "rx_bytes": "41941",
+          "valid_frames": "1048",
+          "checksum_errors": "0",
+          "length_errors": "0",
+          "partial_timeouts": "0",
+          "age_ms": "890"
+        },
+        "coverage": {
+          "first_timestamp_local": "2026-10-21T15:21:07.605+08:00",
+          "last_timestamp_local": "2026-10-21T15:21:07.605+08:00",
+          "first_elapsed_s": 604.3029100000858,
+          "last_elapsed_s": 604.3029100000858,
+          "first_csv_line": 128,
+          "last_csv_line": 128,
+          "timestamp_span_s": 0.0,
+          "elapsed_span_s": 0.0,
+          "sample_coverage_s": 0.0,
+          "sample_coverage_clock": "elapsed_s",
+          "invalid_elapsed_rows": 0,
+          "invalid_timestamp_rows": 0
+        },
+        "counters": {
+          "rx_bytes": {
+            "label_cn": "接收字节数",
+            "first": 41941,
+            "last": 41941,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "valid_frames": {
+            "label_cn": "有效帧数",
+            "first": 1048,
+            "last": 1048,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "checksum_errors": {
+            "label_cn": "校验错误数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "length_errors": {
+            "label_cn": "长度错误数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "partial_timeouts": {
+            "label_cn": "半帧超时数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          }
+        },
+        "age_ms": {
+          "first": 890.0,
+          "last": 890.0,
+          "min": 890.0,
+          "max": 890.0,
+          "interpretation": "末帧年龄是瞬时量，不是累计错误计数。"
+        }
+      }
+    },
+    "test_boundary_bracket": {
+      "baseline_selection": "last startup record",
+      "end_selection": "first post_test record",
+      "observations": {
+        "record_count": 2,
+        "first_csv_line": 7,
+        "last_csv_line": 128,
+        "raw_first_record": {
+          "timestamp_local": "2026-10-21T15:11:02.600+08:00",
+          "elapsed_s": "-0.7028111999388784",
+          "phase": "startup",
+          "rx_bytes": "16040",
+          "valid_frames": "401",
+          "checksum_errors": "0",
+          "length_errors": "0",
+          "partial_timeouts": "0",
+          "age_ms": "790"
+        },
+        "raw_last_record": {
+          "timestamp_local": "2026-10-21T15:21:07.605+08:00",
+          "elapsed_s": "604.3029100000858",
+          "phase": "post_test",
+          "rx_bytes": "41941",
+          "valid_frames": "1048",
+          "checksum_errors": "0",
+          "length_errors": "0",
+          "partial_timeouts": "0",
+          "age_ms": "890"
+        },
+        "coverage": {
+          "first_timestamp_local": "2026-10-21T15:11:02.600+08:00",
+          "last_timestamp_local": "2026-10-21T15:21:07.605+08:00",
+          "first_elapsed_s": -0.7028111999388784,
+          "last_elapsed_s": 604.3029100000858,
+          "first_csv_line": 7,
+          "last_csv_line": 128,
+          "timestamp_span_s": 605.005,
+          "elapsed_span_s": 605.0057212000247,
+          "sample_coverage_s": 605.0057212000247,
+          "sample_coverage_clock": "elapsed_s",
+          "invalid_elapsed_rows": 0,
+          "invalid_timestamp_rows": 0
+        },
+        "counters": {
+          "rx_bytes": {
+            "label_cn": "接收字节数",
+            "first": 16040,
+            "last": 41941,
+            "delta_last_minus_first": 25901,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "valid_frames": {
+            "label_cn": "有效帧数",
+            "first": 401,
+            "last": 1048,
+            "delta_last_minus_first": 647,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "checksum_errors": {
+            "label_cn": "校验错误数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "length_errors": {
+            "label_cn": "长度错误数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          },
+          "partial_timeouts": {
+            "label_cn": "半帧超时数",
+            "first": 0,
+            "last": 0,
+            "delta_last_minus_first": 0,
+            "decreasing_transition_count": 0,
+            "invalid_or_missing_value_count": 0
+          }
+        },
+        "age_ms": {
+          "first": 790.0,
+          "last": 890.0,
+          "min": 790.0,
+          "max": 890.0,
+          "interpretation": "末帧年龄是瞬时量，不是累计错误计数。"
+        }
+      },
+      "interpretation": "该差值覆盖所列诊断记录之间的区间，可能跨过正式窗口边缘；不等同于精确600秒内的计数。"
+    },
+    "counter_delta_definition": "各表增量均为原始末值减首值；若计数回退/重置，该差值不能直接解释为期间事件数。"
+  },
+  "warnings": [],
+  "interpretation_notes": [
+    "正式计时窗口来自元数据，实际样本覆盖来自首末CSV读数，两者不是同一时长；不足600秒的样本跨度不自动否定600秒采集窗口。",
+    "全部measurements.csv记录参与分析；不插值、不平滑、不重采样、不删除零或ERR非零读数。非法/缺失值保持缺失并单列数量。",
+    "相邻主机接收间隔优先由elapsed_s相减；不可用时才用可比较的timestamp_local，不推测缺失时区。",
+    "最长可观察无读数区间同时检查首样之前、相邻样本之间和末样之后；未提供时长或时间异常时，边缘结果可能不可完整评估。",
+    "主机收到日志的时间不是传感器采样时间；串口缓冲、日志调度及主机接收都可能影响间隔。",
+    "诊断计数是设备累计原值；phase=test的首末诊断未必正好落在计时边界，边缘外包差值又可能包含少量窗口外时间。",
+    "计数增量只做末值减首值，不在重置/回绕时猜测或补算。age_ms是瞬时末帧年龄，不是累计错误数。",
+    "零诊断错误、没有编号跳号，不等于传感器零丢包，也不等于传感器精度、校准、长期稳定性或硬件正确性已验证。"
+  ],
+  "output_files": [
+    "summary.json",
+    "summary.md",
+    "measurement_stats.csv"
+  ],
+  "plotting_notes": {
+    "source": "measurements.csv",
+    "time_column": "elapsed_s",
+    "value_columns": [
+      "pm1_ug_m3",
+      "pm25_ug_m3",
+      "pm10_ug_m3",
+      "hcho_mg_m3",
+      "temperature_c",
+      "humidity_percent"
+    ],
+    "keep_zeros": true,
+    "interpolation": false,
+    "smoothing": false,
+    "delete_error_rows": false
+  }
+}

@@ -1,0 +1,63 @@
+Processing nucleo_f411re_buzzer (platform: ststm32@20.0.0; board: nucleo_f411re; framework: arduino)
+--------------------------------------------------------------------------------
+Tool Manager: Installing platformio/tool-stm32flash @ ~0.7.0
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20%
+Tool Manager: tool-stm32flash@0.7.0 has been installed!
+Tool Manager: Installing platformio/tool-stm32duino @ ~1.0.1
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Tool Manager: tool-stm32duino@1.0.2 has been installed!
+Tool Manager: Installing platformio/tool-dfuutil @ ~1.11.0
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Tool Manager: tool-dfuutil@1.11.0 has been installed!
+Tool Manager: Installing platformio/tool-dfuutil-arduino @ ~1.11.0
+Downloading 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Unpacking 0% 10% 20%
+Tool Manager: tool-dfuutil-arduino@1.11.0 has been installed!
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/ststm32/nucleo_f411re.html
+PLATFORM: ST STM32 (20.0.0) > ST Nucleo F411RE
+HARDWARE: STM32F411RET6 100MHz, 128KB RAM, 512KB Flash
+DEBUG: Current (stlink) On-board (stlink) External (blackmagic, cmsis-dap, jlink)
+PACKAGES: 
+ - framework-arduinoststm32 @ 4.30000.0 (3.0.0) 
+ - framework-cmsis @ 2.60300.0 (6.3.0) 
+ - framework-cmsis-dsp @ 1.16.2 
+ - tool-dfuutil @ 1.11.0 
+ - tool-dfuutil-arduino @ 1.11.0 
+ - tool-openocd @ 3.1200.7 (12.0) 
+ - tool-stm32duino @ 1.0.2 
+ - tool-stm32flash @ 0.7.0 
+ - toolchain-gccarmnoneeabi @ 1.120301.0 (12.3.1)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 15 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio\build\nucleo_f411re_buzzer\src\main.cpp.o
+Linking .pio\build\nucleo_f411re_buzzer\firmware.elf
+Checking size .pio\build\nucleo_f411re_buzzer\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   1.0% (used 1280 bytes from 131072 bytes)
+Flash: [          ]   2.6% (used 13600 bytes from 524288 bytes)
+Configuring upload protocol...
+AVAILABLE: blackmagic, cmsis-dap, jlink, mbed, stlink
+CURRENT: upload_protocol = stlink
+Uploading .pio\build\nucleo_f411re_buzzer\firmware.elf
+xPack Open On-Chip Debugger 0.12.0+dev-02228-ge5888bda3-dirty (2025-10-04-22:44)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_deassert_srst
+[stm32f4x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x0800599c msp: 0x20020000
+** Programming Started **
+** Programming Finished **
+** Verify Started **
+** Verified OK **
+** Resetting Target **
+shutdown command invoked
+========================= [SUCCESS] Took 23.58 seconds =========================

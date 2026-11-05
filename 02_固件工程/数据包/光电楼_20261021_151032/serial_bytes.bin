@@ -1,0 +1,807 @@
+PMS frame=371 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=372 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=373 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=374 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=375 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=15000 valid=375 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=596
+PMS frame=376 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=377 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=378 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=379 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.6 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=380 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=381 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=15240 valid=381 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=8
+PMS frame=382 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=383 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=384 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.7 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=385 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=19.7 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=386 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=19.7 C RH=62.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=15440 valid=386 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=326
+PMS frame=387 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=19.7 C RH=62.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=388 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=19.7 C RH=62.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=389 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=19.7 C RH=62.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=390 PM1=2 PM2.5=6 PM10=7 ug/m3 TEMP=19.7 C RH=62.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=391 PM1=2 PM2.5=6 PM10=7 ug/m3 TEMP=19.8 C RH=62.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=15640 valid=391 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=503
+PMS frame=392 PM1=2 PM2.5=6 PM10=7 ug/m3 TEMP=19.8 C RH=62.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=393 PM1=2 PM2.5=6 PM10=7 ug/m3 TEMP=19.7 C RH=62.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=394 PM1=2 PM2.5=6 PM10=7 ug/m3 TEMP=19.7 C RH=62.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=395 PM1=2 PM2.5=6 PM10=7 ug/m3 TEMP=19.7 C RH=62.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=396 PM1=2 PM2.5=6 PM10=7 ug/m3 TEMP=19.7 C RH=62.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=15840 valid=396 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=611
+PMS frame=397 PM1=0 PM2.5=5 PM10=6 ug/m3 TEMP=19.8 C RH=62.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=398 PM1=0 PM2.5=5 PM10=6 ug/m3 TEMP=19.8 C RH=62.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=399 PM1=0 PM2.5=5 PM10=6 ug/m3 TEMP=19.7 C RH=62.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=400 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=62.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=401 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=19.8 C RH=62.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=16040 valid=401 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=790
+PMS frame=402 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=19.8 C RH=62.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=403 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=62.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=404 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=62.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=405 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=62.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=406 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=62.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=407 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=62.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=16280 valid=407 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=201
+PMS frame=408 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=62.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=409 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=62.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=410 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=62.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=411 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=62.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=412 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=62.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=16480 valid=412 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=521
+PMS frame=413 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=414 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=415 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=416 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=417 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=16680 valid=417 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=911
+PMS frame=418 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=419 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=420 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=421 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=422 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=423 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=16920 valid=423 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=323
+PMS frame=424 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=425 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=426 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=427 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=428 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=17120 valid=428 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=642
+PMS frame=429 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=430 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=431 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=432 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=433 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=434 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=17360 valid=434 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=54
+PMS frame=435 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=436 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=437 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=438 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=439 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=17560 valid=439 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=374
+PMS frame=440 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=441 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=442 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=443 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=444 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.8 C RH=61.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=17760 valid=444 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=764
+PMS frame=445 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=446 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=447 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=448 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=449 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=450 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=18000 valid=450 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=176
+PMS frame=451 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=452 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=453 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=454 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=455 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=18200 valid=455 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=496
+PMS frame=456 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=457 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=458 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=459 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=460 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=18400 valid=460 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=816
+PMS frame=461 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=462 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=463 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=464 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=465 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=466 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=18640 valid=466 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=227
+PMS frame=467 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=468 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=469 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=470 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=471 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=18840 valid=471 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=617
+PMS frame=472 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=473 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=474 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=475 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=476 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=477 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=19080 valid=477 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=29
+PMS frame=478 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=479 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=480 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=481 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=482 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=19280 valid=482 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=349
+PMS frame=483 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=19.9 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=484 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=485 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=486 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=487 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=19480 valid=487 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=667
+PMS frame=488 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=489 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=490 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=491 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=492 PM1=2 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=19680 valid=492 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=776
+PMS frame=493 PM1=3 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=61.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=494 PM1=3 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=495 PM1=3 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=496 PM1=3 PM2.5=4 PM10=4 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=497 PM1=2 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=19880 valid=497 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=882
+PMS frame=498 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=499 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=500 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=501 PM1=2 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=502 PM1=2 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=503 PM1=2 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=20120 valid=503 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=223
+PMS frame=504 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.0 C RH=61.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=505 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=506 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.0 C RH=60.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=507 PM1=2 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=508 PM1=2 PM2.5=3 PM10=3 ug/m3 TEMP=20.1 C RH=61.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=20320 valid=508 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=543
+PMS frame=509 PM1=2 PM2.5=3 PM10=3 ug/m3 TEMP=20.1 C RH=61.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=510 PM1=2 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=511 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=512 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.1 C RH=61.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=513 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=61.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=20520 valid=513 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=932
+PMS frame=514 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=61.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=515 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.1 C RH=61.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=516 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=61.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=517 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=60.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=518 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=61.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=519 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=60.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=20760 valid=519 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=344
+PMS frame=520 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.0 C RH=60.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=521 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.0 C RH=60.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=522 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.0 C RH=60.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=523 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=524 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.0 C RH=61.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=20960 valid=524 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=663
+PMS frame=525 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=526 PM1=2 PM2.5=2 PM10=2 ug/m3 TEMP=20.1 C RH=60.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=527 PM1=3 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=60.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=528 PM1=3 PM2.5=3 PM10=3 ug/m3 TEMP=20.1 C RH=60.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=529 PM1=3 PM2.5=3 PM10=3 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=21160 valid=529 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=839
+PMS frame=530 PM1=3 PM2.5=3 PM10=3 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=531 PM1=3 PM2.5=3 PM10=3 ug/m3 TEMP=20.0 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=532 PM1=3 PM2.5=4 PM10=4 ug/m3 TEMP=20.0 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=533 PM1=4 PM2.5=5 PM10=5 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=534 PM1=4 PM2.5=5 PM10=5 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=21369 valid=534 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=948
+PMS frame=535 PM1=4 PM2.5=5 PM10=5 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=536 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=537 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=538 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.1 C RH=60.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=539 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.0 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=540 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=21600 valid=540 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=218
+PMS frame=541 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=542 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=543 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=544 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=545 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=21800 valid=545 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=538
+PMS frame=546 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=547 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=548 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=549 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=550 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=22000 valid=550 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=857
+PMS frame=551 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=552 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=553 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=554 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=555 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=556 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=22240 valid=556 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=269
+PMS frame=557 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=558 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=559 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=560 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=561 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=22440 valid=561 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=659
+PMS frame=562 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=563 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=564 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=565 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=566 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=567 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=22680 valid=567 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=71
+PMS frame=568 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=569 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=570 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=571 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=572 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=22880 valid=572 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=391
+PMS frame=573 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=574 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=575 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=576 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=577 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=23080 valid=577 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=710
+PMS frame=578 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.1 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=579 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=580 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=581 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=582 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=583 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=23320 valid=583 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=121
+PMS frame=584 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=585 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=586 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=587 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=588 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=23520 valid=588 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=511
+PMS frame=589 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=590 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=591 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=592 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=593 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=23720 valid=593 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=830
+PMS frame=594 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=595 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=596 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=597 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=598 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=599 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=23960 valid=599 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=241
+PMS frame=600 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=601 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=602 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=603 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=604 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=24160 valid=604 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=560
+PMS frame=605 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=606 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=607 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=608 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=609 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=24372 valid=609 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=950
+PMS frame=610 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=611 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=612 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=613 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=614 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=615 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=24600 valid=615 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=361
+PMS frame=616 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=617 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=618 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=619 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=620 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.2 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=24800 valid=620 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=681
+PMS frame=621 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=622 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=623 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=624 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=625 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=626 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=25040 valid=626 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=93
+PMS frame=627 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=628 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=629 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=630 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=631 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=25240 valid=631 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=413
+PMS frame=632 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=633 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=634 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=635 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=636 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=25440 valid=636 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=802
+PMS frame=637 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=638 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=639 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=640 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=641 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=642 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=25680 valid=642 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=214
+PMS frame=643 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=644 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=645 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=646 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=647 PM1=1 PM2.5=2 PM10=2 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=25880 valid=647 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=322
+PMS frame=648 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=649 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=650 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=651 PM1=0 PM2.5=2 PM10=2 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=652 PM1=0 PM2.5=2 PM10=2 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=26080 valid=652 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=430
+PMS frame=653 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=654 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=655 PM1=0 PM2.5=1 PM10=2 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=656 PM1=0 PM2.5=1 PM10=2 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=657 PM1=0 PM2.5=1 PM10=2 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=26280 valid=657 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=679
+PMS frame=658 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=659 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=660 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=661 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=662 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=663 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=26520 valid=663 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=91
+PMS frame=664 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=665 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=666 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=667 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=668 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=26720 valid=668 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=410
+PMS frame=669 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=670 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=671 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=672 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=673 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=26920 valid=673 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=730
+PMS frame=674 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=675 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=676 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=677 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=678 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.4 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=679 PM1=0 PM2.5=0 PM10=1 ug/m3 TEMP=20.4 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=27160 valid=679 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=142
+PMS frame=680 PM1=0 PM2.5=0 PM10=1 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=681 PM1=0 PM2.5=0 PM10=1 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=682 PM1=0 PM2.5=0 PM10=1 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=683 PM1=0 PM2.5=0 PM10=1 ug/m3 TEMP=20.4 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=684 PM1=0 PM2.5=0 PM10=1 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=27360 valid=684 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=532
+PMS frame=685 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=686 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.3 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=687 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=688 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=689 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=27560 valid=689 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=852
+PMS frame=690 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=691 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=692 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=693 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=694 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=695 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=27800 valid=695 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=264
+PMS frame=696 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=697 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=698 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=699 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=700 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=28000 valid=700 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=584
+PMS frame=701 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=702 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=703 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=704 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=705 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=28235 valid=705 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=974
+PMS frame=706 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=707 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=708 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=709 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=710 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=711 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=28440 valid=711 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=386
+PMS frame=712 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=713 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=714 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=715 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=716 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=28640 valid=716 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=707
+PMS frame=717 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=718 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=719 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=720 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=721 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=722 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=28880 valid=722 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=119
+PMS frame=723 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=724 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=725 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=726 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=727 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=29080 valid=727 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=439
+PMS frame=728 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=729 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=730 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=731 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=732 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=29280 valid=732 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=829
+PMS frame=733 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=734 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=735 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=736 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=737 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=738 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=29520 valid=738 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=241
+PMS frame=739 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.4 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=740 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=741 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=742 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=743 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=29720 valid=743 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=561
+PMS frame=744 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=745 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=746 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=747 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=748 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=29934 valid=748 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=881
+PMS frame=749 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=750 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=751 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=752 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=753 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=754 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=30160 valid=754 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=293
+PMS frame=755 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=756 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=757 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=758 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=759 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=30360 valid=759 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=683
+PMS frame=760 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=761 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=762 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=763 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=764 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=765 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=30600 valid=765 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=95
+PMS frame=766 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=767 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=768 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=769 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=770 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=30800 valid=770 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=415
+PMS frame=771 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=772 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=773 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=774 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=775 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=31000 valid=775 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=734
+PMS frame=776 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=777 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=778 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.6 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=779 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=780 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=781 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=31240 valid=781 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=146
+PMS frame=782 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.6 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=783 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=784 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=785 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=786 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=31440 valid=786 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=536
+PMS frame=787 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=788 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=789 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=790 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.6 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=791 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=31640 valid=791 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=856
+PMS frame=792 PM1=0 PM2.5=1 PM10=1 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=793 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=794 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=795 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=796 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=797 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=31880 valid=797 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=268
+PMS frame=798 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=799 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=800 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=60.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=801 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=802 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=32080 valid=802 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=588
+PMS frame=803 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=804 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=805 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=806 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=807 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=32319 valid=807 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=978
+PMS frame=808 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=809 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=810 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=811 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=812 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=813 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=60.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=32520 valid=813 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=390
+PMS frame=814 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=815 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=816 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=817 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=818 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=32720 valid=818 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=710
+PMS frame=819 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=820 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=821 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=822 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=823 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=824 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=32960 valid=824 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=122
+PMS frame=825 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=826 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=827 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=828 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=829 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=33160 valid=829 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=442
+PMS frame=830 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=831 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=832 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=833 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=834 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=33360 valid=834 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=832
+PMS frame=835 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=836 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=837 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=838 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=839 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=840 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=33600 valid=840 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=244
+PMS frame=841 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=842 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=843 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=844 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=845 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=33800 valid=845 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=564
+PMS frame=846 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=847 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=848 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=849 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=850 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=34016 valid=850 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=884
+PMS frame=851 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=852 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=853 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=854 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=855 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=856 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=34240 valid=856 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=296
+PMS frame=857 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=858 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=859 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=860 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=861 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=34440 valid=861 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=686
+PMS frame=862 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=863 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=864 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=865 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=866 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=867 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=34680 valid=867 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=98
+PMS frame=868 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=869 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=870 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=871 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=872 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=34880 valid=872 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=418
+PMS frame=873 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=874 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=875 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=876 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=877 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=35080 valid=877 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=738
+PMS frame=878 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=879 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=880 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=881 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=882 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.5 C RH=59.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=883 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=35320 valid=883 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=149
+PMS frame=884 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=885 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=886 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=887 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=888 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=35520 valid=888 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=538
+PMS frame=889 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=890 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=891 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=892 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=893 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=35720 valid=893 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=857
+PMS frame=894 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=895 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=896 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=897 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=898 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=899 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=35960 valid=899 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=269
+PMS frame=900 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=901 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=902 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=903 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=904 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=36160 valid=904 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=589
+PMS frame=905 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=906 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=907 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=908 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=909 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=910 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=36400 valid=910 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=6
+PMS frame=911 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=912 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=913 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=914 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=915 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=36600 valid=915 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=396
+PMS frame=916 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=917 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=918 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=919 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=920 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=36800 valid=920 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=715
+PMS frame=921 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=922 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=923 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=924 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=925 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=926 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=37040 valid=926 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=127
+PMS frame=927 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=928 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=929 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=930 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=931 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=37240 valid=931 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=447
+PMS frame=932 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=933 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=934 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=935 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=936 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=37440 valid=936 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=837
+PMS frame=937 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=938 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=939 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=940 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=941 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=942 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=37680 valid=942 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=249
+PMS frame=943 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=944 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=945 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=946 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=947 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=37880 valid=947 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=568
+PMS frame=948 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=949 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=950 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=951 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=952 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=38100 valid=952 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=888
+PMS frame=953 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=954 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=955 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.6 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=956 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=957 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=958 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=38320 valid=958 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=300
+PMS frame=959 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=960 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=961 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=962 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=963 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=38520 valid=963 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=690
+PMS frame=964 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=965 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=966 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=967 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=968 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=969 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=38760 valid=969 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=102
+PMS frame=970 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=971 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=972 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=973 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=974 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=38960 valid=974 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=422
+PMS frame=975 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=976 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=977 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=978 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=979 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=39160 valid=979 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=742
+PMS frame=980 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=981 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=58.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=982 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=983 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=984 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=985 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=39400 valid=985 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=153
+PMS frame=986 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=987 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=988 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=989 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=58.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=990 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=39600 valid=990 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=543
+PMS frame=991 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=992 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=58.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=993 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=58.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=994 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=58.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=995 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=58.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=39800 valid=995 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=863
+PMS frame=996 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=997 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=998 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=999 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1000 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1001 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=40040 valid=1001 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=274
+PMS frame=1002 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1003 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=58.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1004 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1005 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1006 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=40240 valid=1006 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=593
+PMS frame=1007 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1008 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1009 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1010 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1011 PM1=1 PM2.5=1 PM10=1 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1012 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=40480 valid=1012 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=4
+PMS frame=1013 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1014 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1015 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1016 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1017 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=40680 valid=1017 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=394
+PMS frame=1018 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1019 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1020 PM1=0 PM2.5=0 PM10=0 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1021 PM1=2 PM2.5=2 PM10=2 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1022 PM1=3 PM2.5=5 PM10=5 ug/m3 TEMP=20.7 C RH=59.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=40880 valid=1022 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=641
+PMS frame=1023 PM1=5 PM2.5=8 PM10=8 ug/m3 TEMP=20.7 C RH=58.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1024 PM1=7 PM2.5=10 PM10=11 ug/m3 TEMP=20.7 C RH=58.8 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1025 PM1=9 PM2.5=13 PM10=14 ug/m3 TEMP=20.8 C RH=58.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1026 PM1=10 PM2.5=16 PM10=17 ug/m3 TEMP=20.7 C RH=58.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1027 PM1=13 PM2.5=19 PM10=20 ug/m3 TEMP=20.8 C RH=58.2 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=41080 valid=1027 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=744
+PMS frame=1028 PM1=15 PM2.5=23 PM10=25 ug/m3 TEMP=20.7 C RH=58.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1029 PM1=17 PM2.5=26 PM10=28 ug/m3 TEMP=20.7 C RH=58.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1030 PM1=19 PM2.5=28 PM10=30 ug/m3 TEMP=20.7 C RH=58.0 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1031 PM1=19 PM2.5=29 PM10=31 ug/m3 TEMP=20.7 C RH=57.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1032 PM1=19 PM2.5=29 PM10=31 ug/m3 TEMP=20.7 C RH=57.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=41280 valid=1032 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=846
+PMS frame=1033 PM1=18 PM2.5=28 PM10=30 ug/m3 TEMP=20.7 C RH=57.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1034 PM1=18 PM2.5=28 PM10=30 ug/m3 TEMP=20.7 C RH=57.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1035 PM1=18 PM2.5=28 PM10=30 ug/m3 TEMP=20.7 C RH=57.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1036 PM1=19 PM2.5=28 PM10=31 ug/m3 TEMP=20.7 C RH=57.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1037 PM1=19 PM2.5=28 PM10=31 ug/m3 TEMP=20.7 C RH=57.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1038 PM1=19 PM2.5=28 PM10=31 ug/m3 TEMP=20.7 C RH=57.1 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=41520 valid=1038 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=255
+PMS frame=1039 PM1=18 PM2.5=28 PM10=32 ug/m3 TEMP=20.7 C RH=56.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1040 PM1=18 PM2.5=28 PM10=32 ug/m3 TEMP=20.7 C RH=56.9 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1041 PM1=18 PM2.5=28 PM10=32 ug/m3 TEMP=20.7 C RH=56.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1042 PM1=18 PM2.5=29 PM10=32 ug/m3 TEMP=20.7 C RH=56.7 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1043 PM1=18 PM2.5=29 PM10=32 ug/m3 TEMP=20.7 C RH=56.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=41720 valid=1043 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=573
+PMS frame=1044 PM1=18 PM2.5=29 PM10=32 ug/m3 TEMP=20.7 C RH=56.6 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1045 PM1=18 PM2.5=29 PM10=32 ug/m3 TEMP=20.7 C RH=56.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1046 PM1=18 PM2.5=29 PM10=32 ug/m3 TEMP=20.7 C RH=56.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1047 PM1=18 PM2.5=29 PM10=32 ug/m3 TEMP=20.7 C RH=56.5 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1048 PM1=18 PM2.5=28 PM10=31 ug/m3 TEMP=20.7 C RH=56.4 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS status: rx=41941 valid=1048 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=890
+PMS frame=1049 PM1=18 PM2.5=28 PM10=31 ug/m3 TEMP=20.7 C RH=56.3 % HCHO=0.000 mg/m3 FW=145 ERR=0
+PMS frame=1050 PM1=18 PM2.5=28 PM10=31 ug/m3 TEMP=20.7 C RH=56.3 % HCHO=0.000 mg/m3 FW=145 ERR=0

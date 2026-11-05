@@ -1,0 +1,2 @@
+2189eea2de1b7337db9be48165f34e4e50d03e26d1375c13db5587a2c7bf7468  air-hcho-alarm-uart6-20261015.bin
+f3f05fd735830bfcc9b5b033ff2ba1fbc63fdf5c0a2cde38c479cbdb15d109dc  air-hcho-alarm-uart6-20261015.elf

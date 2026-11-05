@@ -1,0 +1,2 @@
+3D外壳打印/*.zip filter=lfs diff=lfs merge=lfs -text
+3D外壳打印/**/*.exe filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,13 @@
+BOOT GIF done duration_ms=7401 frames=74 decode_errors=0 transfer_errors=0 max_decode_ms=82 max_transfer_ms=29 max_late_ms=7
+PMS frame=7 PM1=34 PM2.5=55 PM10=70 ug/m3 TEMP=21.0 C RH=61.7 % HCHO=0.782 mg/m3 FW=145 ERR=0
+UI: NAIWA_COMPANION 320x240, localized refresh
+BOOT monitor: ready
+PMS status: rx=280 valid=7 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=573
+PMS frame=8 PM1=34 PM2.5=57 PM10=71 ug/m3 TEMP=21.0 C RH=61.7 % HCHO=0.784 mg/m3 FW=145 ERR=0
+PMS frame=9 PM1=35 PM2.5=57 PM10=72 ug/m3 TEMP=21.1 C RH=61.5 % HCHO=0.785 mg/m3 FW=145 ERR=0
+PMS frame=10 PM1=35 PM2.5=57 PM10=71 ug/m3 TEMP=21.1 C RH=61.3 % HCHO=0.784 mg/m3 FW=145 ERR=0
+PMS frame=11 PM1=36 PM2.5=61 PM10=74 ug/m3 TEMP=21.1 C RH=61.2 % HCHO=0.782 mg/m3 FW=145 ERR=0
+PMS frame=12 PM1=39 PM2.5=68 PM10=79 ug/m3 TEMP=21.1 C RH=61.1 % HCHO=0.780 mg/m3 FW=145 ERR=0
+PMS status: rx=480 valid=12 checksum_bad=0 length_bad=0 partial_timeout=0 age_ms=681
+PMS frame=13 PM1=40 PM2.5=71 PM10=82 ug/m3 TEMP=21.1 C RH=60.9 % HCHO=0.777 mg/m3 FW=145 ERR=0
+PMS frame=14 PM1=43 PM2.5=77 PM10=91 ug/m3 TEMP=21.1 C RH=60.7 % HCHO=0.774 mg/m3 FW=145 ERR=0
